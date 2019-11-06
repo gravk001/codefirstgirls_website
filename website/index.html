@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wanderlust</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/imageMapResizer.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <div class="headings">
+    <!-- <h1>not all those who wander are lost</h1>
+    <h2>basic girl guide to travel</h2> -->
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">Menu</button>
+    <div class="dropdown-content">
+      <a href="index.html">World map</a>
+    <a href="australia.html">Australia</a>
+    <a href="asia.html">Asia</a>
+    <a href="europe.html">Europe</a>
+    <a href="north_america.html">North America</a>
+    <a href="south_america.html">South America</a>
+    <a href="FAQs.html">FAQs</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <img class="map" src="https://i.dlpng.com/static/png/326087_preview.png" usemap="#image-map">
+    <div class="img_locations">
+      <map name="image-map">
+          <area target="" alt="" title="" href="australia.html" coords="595,337,52" shape="circle">
+          <area target="" alt="" title="" href="north_america.html" coords="24,53,90,181,154,221,241,127,225,73,134,13" shape="poly">
+          <area  target="" alt="" title="" href="asia.html" coords="596,203,621,149,577,144,546,124,491,142,464,188,494,250,514,278,557,295,580,282,616,287,596,240" shape="poly">
+          <area  target="" alt="" title="" href="europe.html" coords="314,159,309,97,378,47,470,87,411,163" shape="poly">
+          <area  target="" alt="" title="" href="south_america.html" coords="192,221,172,256,181,291,201,310,200,380,212,394,242,336,281,302,290,265,242,237,243,227" shape="poly">
+      </map>
+    </div>
+  <div class="aus_labels">
+    <div class="text">Sydney</div>
+  </div>
+  </div>
+
+</body>
+
+<!-- RESIZE MAP USING imageMapResizer -->
+<script type="text/javascript">
+		$('map').imageMapResize();
+</script>
+
+
+
+</html>
