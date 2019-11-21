@@ -12,15 +12,16 @@
 /* Style the 1st header with a yellow background and some padding */
 .heading1{
   overflow: hidden;
-  background-color: yellow;
+  background-color: #FFCCCC;
   padding: 10px 5px;
-  font-family: arial;
+  font-family: georgia;
   text-align: center;
+  color: #FF6666;
 }
 
 .quote{
   overflow: hidden;
-  background-color: yellow;
+  background-color: #FFCCCC;
   padding: 10px 5px;
   font-family: harrington, fantasy;
   text-align: center;
