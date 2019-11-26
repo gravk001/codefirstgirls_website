@@ -10,6 +10,7 @@
 }
 
 /* Style the 1st header with a pink background and some padding */
+
 .head1{
   overflow: hidden;
   background-color: #FFCCCC;
@@ -19,13 +20,20 @@
   color: #FF6666;
 }
 
-.quote{
+.overlay_text {
   overflow: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 20pc;
+  right: 20pc;
   background-color: #FFCCCC;
-  padding: 10px 5px;
+  padding: 10px 10px;
   font-family: harrington, fantasy;
   text-align: center;
   font-style: italic;
+  font-size: 36px;
+  color: #FF6666;
 }
 
 .head2 {
@@ -41,7 +49,8 @@
   right: 0;
   opacity: 0;
   transition: 0.75s ease;
-  padding: 10px 5px;
+  /* color: #FF6666; */
+  /* padding: 10px 5px; */
 }
 
 .head1:hover .overlay {
