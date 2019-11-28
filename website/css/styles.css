@@ -9,26 +9,34 @@
   margin-right: auto;
 }
 
-/* Style the 1st header with a yellow background and some padding */
-.heading1{
+/* Style the 1st header with a pink background and some padding */
+
+.head1{
   overflow: hidden;
   background-color: #FFCCCC;
   padding: 10px 5px;
-  font-family: georgia;
+  font-family: arial;
   text-align: center;
   color: #FF6666;
 }
 
-.quote{
+.overlay_text {
   overflow: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 20pc;
+  right: 20pc;
   background-color: #FFCCCC;
-  padding: 10px 5px;
+  padding: 10px 10px;
   font-family: harrington, fantasy;
   text-align: center;
   font-style: italic;
+  font-size: 36px;
+  color: #FF6666;
 }
 
-.heading2 {
+.head2 {
   font-family: arial;
   text-align: center;
 }
@@ -41,10 +49,11 @@
   right: 0;
   opacity: 0;
   transition: 0.75s ease;
-  padding: 10px 5px;
+  /* color: #FF6666; */
+  /* padding: 10px 5px; */
 }
 
-.heading1:hover .overlay {
+.head1:hover .overlay {
   opacity: 1;
 }
 
@@ -64,7 +73,7 @@
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 20px;
+  width: 50px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
