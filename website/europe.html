@@ -2,12 +2,35 @@
 <html>
 <head>
   <title>Europe</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/twitterfeed.css">
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/imageMapResizer.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 
 <body>
-  <div class="headings">
+
+  <!-- page header -->
+  <div class="row">
+    <div class="col-sm">
+      <div class="head1 mx-2 mt-2">
+      <h1>wanderlust</h1>
+        <div class="overlay">
+          <div class="overlay_text mx-2 mt-2">
+          <h1 onclick="location.href='index.html';">take me home</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="head2">
     <h1>europe</h1>
     <h2>the hottest spots on the continent</h2>
   </div>
@@ -22,6 +45,7 @@
     <a href="north_america.html">North America</a>
     <a href="south_america.html">South America</a>
     <a href="FAQs.html">FAQs</a>
+    <a href="contact.html">Contact Wanderlust</a>
     </div>
   </div>
 
@@ -30,6 +54,7 @@
     <img class="map" src="https://ih1.redbubble.net/image.860003060.6635/flat,550x550,075,f.u5.jpg" usemap="#image-map">
     <div class="img_locations">
     </div>
+  </div>
 
   <!-- FADE IN OVERLAY OF THREE IMAGES -->
   <!--<div class="row">
@@ -65,5 +90,22 @@
       </div>
   </div>-->
 
+    <div>
+      <!-- add some social media buttons -->
+      <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Add font awesome icons -->
+    <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/" target="_blank" class="fa fa-twitter"></a>
+    <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+    <a href="https://www.pinterest.co.uk/" target="_blank" class="fa fa-pinterest"></a>
+    </div>
+
+    <br>
+    <!-- link to twitter feed - user can write tweet with #wanderlust hashtag -->
+    <div>
+      <a href="https://twitter.com/intent/tweet?button_hashtag=wanderlust&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #wanderlust</a>
+    </div>
+  </body>
 
 </html>
