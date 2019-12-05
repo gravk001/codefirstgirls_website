@@ -17,18 +17,17 @@
 
   <!-- css links -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
-<link rel="stylesheet" href="https://stackpath.bootsrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 <link rel="stylesheet" type="text/css" href="css/navbar.css">
 <link rel="stylesheet" type="text/css" href="css/twitterfeed.css">
   <!-- js links -->
+  <script type="text/javascript" src="js/imageMapResizer.min.js"></script>
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="js/scripts.js"></script>
-  <script type="text/javascript" src="js/imageMapResizer.min.js"></script>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
@@ -80,10 +79,12 @@
           <area  target="" alt="" title="" href="south_america.html" coords="192,221,172,256,181,291,201,310,200,380,212,394,242,336,281,302,290,265,242,237,243,227" shape="poly">
       </map>
     </div>
-  <div class="aus_labels">
-    <div class="text">Sydney</div>
   </div>
-  </div>
+
+  <!-- RESIZE MAP USING imageMapResizer -->
+  <script type="text/javascript">
+  		$('map').imageMapResize();
+  </script>
 
   <!-- for carousel -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
@@ -112,6 +113,8 @@
             </div>
 
 </div>
+
+
 
 <div>
   <!-- add some social media buttons -->
@@ -143,6 +146,8 @@
 <!-- Javascript -->
 <script src="js/scripts.js"></script>
 
+
+
 </body>
 
 <!--Javascript in footer -->
@@ -159,10 +164,7 @@
   <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
   <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
 
-  <!-- RESIZE MAP USING imageMapResizer -->
-  <script type="text/javascript">
-  		$('map').imageMapResize();
-  </script>
+
 
 </footer>
 
