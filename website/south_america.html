@@ -1,32 +1,62 @@
 <!DOCTYPE html>
 
 
-  <html>
-  <head>
-    <title>South America</title>
+<html>
+<head>
+  <title>South America</title>
+  <!-- css links -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link rel="stylesheet" type="text/css" href="css/navbar.css">
+<link rel="stylesheet" type="text/css" href="css/twitterfeed.css">
+  <!-- js links -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/imageMapResizer.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" type="text/css" href="css/twitterfeed.css">
-    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="js/imageMapResizer.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+  <!-- page header -->
+  <div class="row">
+    <div class="col-sm">
+      <div class="head1 mx-2 mt-2">
+      <h1>wanderlust</h1>
+        <div class="overlay">
+          <div class="overlay_text mx-2 mt-2">
+          <h1 onclick="location.href='index.html';">take me home</h1>
+          </div>
 
-  </head>
+  <div class="headings">
+    <h1>south america</h1>
+    <h2></h2>
+  </div>
 
-  <body>
+  <!--Navigation bar in each page using jquery-->
+  <div id="nav-placeholder">
 
-    <!-- page header -->
-    <div class="row">
-      <div class="col-sm">
-        <div class="head1 mx-2 mt-2">
-        <h1>wanderlust</h1>
-          <div class="overlay">
-            <div class="overlay_text mx-2 mt-2">
-            <h1 onclick="location.href='index.html';">take me home</h1>
-            </div>
+  </div>
+
+  <script>
+  $(function(){
+    $("#nav-placeholder").load("navbar.html");
+  });
+  </script>
+  <!--end of Navigation bar-->
+
+  <!-- FADE IN OVERLAY OF THREE IMAGES -->
+  <div class="row">
+      <div class="continent_container">
+        <img src="images/great_barrier_reef.jpg" class="continent_images">
+        <div class="continent_overlay">
+          <div class="continent_text">
+            <ul class="country_list">
+              <li>Salt flats, Bolivia</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -35,20 +65,6 @@
     <div class="head2">
       <h1>south america</h1>
       <h2></h2>
-    </div>
-
-    <div class="dropdown">
-      <button class="dropbtn">Menu</button>
-      <div class="dropdown-content">
-      <a href="index.html">World map</a>
-      <a href="australia.html">Australia</a>
-      <a href="asia.html">Asia</a>
-      <a href="europe.html">Europe</a>
-      <a href="north_america.html">North America</a>
-      <a href="south_america.html">South America</a>
-      <a href="FAQs.html">FAQs</a>
-      <a href="contact.html">Contact Wanderlust</a>
-      </div>
     </div>
 
     <!-- THE ZOOMED IN MAP OF SOUTH AMERICA -->
