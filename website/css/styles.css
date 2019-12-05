@@ -1,3 +1,4 @@
+/* style of large map */
 .map{
   display: block;
   /* padding: 20px; */
@@ -9,13 +10,14 @@
   margin-right: auto;
 }
 
-/* Style the 1st header with a pink background and some padding */
 
+
+/* Style the 1st header with a pink background and some padding */
 .head1{
   overflow: hidden;
   background-color: #FFCCCC;
   padding: 10px 5px;
-  font-family: arial;
+  font-family: courier;
   text-align: center;
   color: #FF6666;
 }
@@ -37,7 +39,7 @@
 }
 
 .head2 {
-  font-family: arial;
+  font-family: "century gothic";
   text-align: center;
 }
 
@@ -169,17 +171,6 @@
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
-}
-
-.aus_labels {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
 }
 
 .container:hover .aus_loc {
