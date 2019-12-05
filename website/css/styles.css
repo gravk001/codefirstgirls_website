@@ -10,7 +10,11 @@
   margin-right: auto;
 }
 
-
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
 
 /* Style the 1st header with a pink background and some padding */
 .head1{
